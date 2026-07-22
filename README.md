@@ -9,7 +9,7 @@ show the architecture generalizes beyond a single use case:
 
 1. **Research Assistant** — Planner → human approval → Researcher →
    Writer → Critic, with a revise loop
-2. **Resume-to-Job-Match** — Extractor → Matcher → Feedback Writer
+2. **Resume-to-Job-Matcher** — Extractor → Matcher → Feedback Writer
 
 ## What this project demonstrates
 
