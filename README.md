@@ -11,6 +11,9 @@ show the architecture generalizes beyond a single use case:
    Writer → Critic, with a revise loop
 2. **Resume-to-Job-Matcher** — Extractor → Matcher → Feedback Writer
 
+**Research Assistant** will help in researching, planning, writing, and revised the written version if not passed.
+**Resume-to-Job-Matcher** will extract your skills and details from your resume and match them with Job Description (JD) provided and give feedback.
+
 ## What this project demonstrates
 
 - **Multi-agent coordination** — task decomposition (Planner), delegated
