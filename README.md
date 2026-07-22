@@ -81,7 +81,7 @@ cp .env.example .env           # then add your real ANTHROPIC_API_KEY
 
 ```bash
 python langgraph_version/main.py                  # Research Assistant
-python langgraph_version/resume_match/main.py      # Resume-to-Job-Match
+python langgraph_version/resume_match/main.py      # Resume-to-Job-Matcher
 pytest                                              # run the tests
 ```
 
