@@ -90,3 +90,8 @@ pytest                                              # run the tests
 
 Full details (including what each setting does and how to add new
 agents) are in `langgraph_version/README.md`.
+
+## How to add a new agent later
+
+1. New file in the right `agents/` folder, with a function like the
+   others: `def my_agent_node(state): ...`
