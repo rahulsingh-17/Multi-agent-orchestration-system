@@ -95,3 +95,6 @@ agents) are in `langgraph_version/README.md`.
 
 1. New file in the right `agents/` folder, with a function like the
    others: `def my_agent_node(state): ...`
+2. In that pipeline's `graph.py`: `graph.add_node("my_agent", my_agent_node)`
+   and connect it with `add_edge` (or `add_conditional_edges` if it needs
+   to make a decision) wherever you want it to run.
