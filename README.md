@@ -98,3 +98,4 @@ agents) are in `langgraph_version/README.md`.
 2. In that pipeline's `graph.py`: `graph.add_node("my_agent", my_agent_node)`
    and connect it with `add_edge` (or `add_conditional_edges` if it needs
    to make a decision) wherever you want it to run.
+3. If it needs extra data, add a field for it in that pipeline's `state.py`.
